@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  background-color: #f6f3ec;
+  color: #222222;
+  font-family: Arial;
+}
+
+a {
+  color: #222222;
+  text-decoration: none;
+}
+
+a:hover {
+  color: brown;
+}
+
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  border-bottom: 1px solid black;
+}
+
+.home {
+  padding: 70px;
+}
+
+.home h1 {
+  font-family: Georgia;
+  font-size: 110px;
+  margin: 40px 0;
+  font-weight: normal;
+}
+
+.intro {
+  width: 440px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.enter {
+  display: inline-block;
+  margin-top: 35px;
+  padding: 20px;
+  background-color: #222222;
+  color: white;
+}
+
+.enter:hover {
+  background-color: brown;
+  color: white;
+}
+
+.home-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+  border-top: 1px solid black;
+  padding-top: 15px;
+  font-size: 12px;
+}
+
+.gallery-page {
+  padding: 50px;
+}
+
+.gallery-page h1 {
+  font-family: Georgia;
+  font-size: 65px;
+  font-weight: normal;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.object-card {
+  border: 1px solid gray;
+  padding: 15px;
+  background-color: white;
+}
+
+.object-card:hover {
+  background-color: #e8e0d3;
+}
+
+.object-image {
+  height: 210px;
+  background-color: #e8e4db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.object-image span {
+  font-family: Georgia;
+  font-size: 65px;
+}
+
+.object-card h3 {
+  font-family: Georgia;
+  font-size: 23px;
+  font-weight: normal;
+}
+
+.object-card p {
+  font-size: 13px;
+}
+
+.detail {
+  padding: 50px;
+}
+
+.detail h1 {
+  font-family: Georgia;
+  font-size: 65px;
+  font-weight: normal;
+}
+
+.byline {
+  font-size: 13px;
+  margin-bottom: 40px;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.detail-art {
+  background-color: #e8e4db;
+  height: 440px;
+  text-align: center;
+  padding: 20px;
+}
+
+.detail-art span {
+  display: block;
+  font-family: Georgia;
+  font-size: 100px;
+  margin-top: 120px;
+}
+
+.story {
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.story h2 {
+  font-family: Georgia;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.story p {
+  margin-bottom: 20px;
+}
+
+.page-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  padding-top: 20px;
+  border-top: 1px solid black;
+}
+
+footer {
+  padding: 30px;
+}
